@@ -12,7 +12,7 @@ public class Ejercicio3Test {
 		"13,************",
 		"6,******"})
 	
-	void testTransformar(int n, String expected) {
+	void testEncriptar(int n, String expected) {
 		Ejercicio3 c = new Ejercicio3();
 		assertEquals(expected, c.encriptar(n));
 	}
