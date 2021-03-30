@@ -12,13 +12,13 @@ public class Ferry {
 	public int pesoVehiculos;
 	public ArrayList<Vehiculo> vehiculos;
 	
-	public Ferry(int maxPasajeros, int pesoMaxVehiculos, int maxVehiculos, int numPasajeros, int numVehiculos, int pesoVehiculos, ArrayList<Vehiculo> vehiculos) {
+	public Ferry(int maxPasajeros, int pesoMaxVehiculos, int maxVehiculos, int numPasajeros, int numVehiculos, int pesoVehiculos) {
 		this.maxPasajeros = maxPasajeros;
 		this.pesoMaxVehiculos = pesoMaxVehiculos;
 		this.maxVehiculos = maxVehiculos;
 		this.numPasajeros = numPasajeros;
 		this.pesoVehiculos = pesoVehiculos;
-		this.vehiculos = vehiculos;
+		this.vehiculos = new ArrayList<Vehiculo>();
 	}
 	
 	boolean embarcarVehiculo (Vehiculo v) {
@@ -48,6 +48,10 @@ public class Ferry {
 		}
 		if (pesoTotal > pesoMaxVehiculos) return true;
 		else return false;
+	}
+	
+	public ArrayList<Vehiculo> getVehiculos() {
+		return this.vehiculos;
 	}
 	
 }
