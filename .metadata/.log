@@ -1,0 +1,119 @@
+!SESSION 2021-04-09 11:15:13.255 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=11.0.10
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -data C:\Users\alexr\Google Drive\TERCERO\2 CUATRIMESTRE\Herramientas Y Métodos De Ingeniería Del Software\PRÁCTICAS\repositorio05 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2021-04-09 11:15:21.819
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-09 11:15:21.819
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c376b44,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47596e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-04-09 11:15:21.819
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5ab29866,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(pl.szpinda.plugin.tomcat.commands.tomcatStartStop,Tomcat start,stop,
+		,
+		Category(pl.szpinda.plugin.tomcat.commands.category.key,Tomcat keys,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74cad577,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:37.384
+!MESSAGE Schedule fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:37.397
+!MESSAGE Schedule version update jobs
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-04-09 11:15:38.254
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\alexr'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:38.362
+!MESSAGE Fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:38.367
+!MESSAGE Requesting user info (notification settings URL)
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:39.567
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:39.570
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:39.582
+!MESSAGE Parse notifications
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:39.596
+!MESSAGE Save JSON notifications content to cache file C:\Users\alexr\Google Drive\TERCERO\2 CUATRIMESTRE\Herramientas Y Métodos De Ingeniería Del Software\PRÁCTICAS\repositorio05\.metadata\.plugins\com.vaadin.integration.eclipse\notifications-cache.json
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:39.839
+!MESSAGE BrowserCore initialized.
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:40.205
+!MESSAGE Icon https://vaadin.com/documents/10187/10395/tori-icon-blue-bg-90px/4597dffb-3868-4711-b422-8fc3e71844e6?t=1394217295000 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:40.414
+!MESSAGE Icon https://website.vaadin.com/hubfs/1.%20Website%20images/Product%20Security%20Reports/security-icon.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.145
+!MESSAGE Image https://website.vaadin.com/hubfs/rolf%20ama%20demo.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.362
+!MESSAGE Image https://website.vaadin.com/hubfs/Frame%20%2854%29.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.471
+!MESSAGE Image https://website.vaadin.com/hubfs/1.%20Website%20images/Product%20Security%20Reports/security-banner-high.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.582
+!MESSAGE Image https://website.vaadin.com/hubfs/Performance%20b.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.685
+!MESSAGE Image https://website.vaadin.com/hubfs/Frame%20%2847%29.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.755
+!MESSAGE Image https://website.vaadin.com/hubfs/1.%20Website%20images/Product%20Security%20Reports/security-banner-medium.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:41.947
+!MESSAGE Image https://website.vaadin.com/hubfs/Frame%20%2837%29.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:42.067
+!MESSAGE Image https://website.vaadin.com/hubfs/Frame%20%2833%29.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:42.270
+!MESSAGE Image https://website.vaadin.com/hubfs/Vaadin-19-offline-1.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2021-04-09 11:15:42.283
+!MESSAGE Schedule fetching new notifications
+
+!ENTRY org.eclipse.ui 2 2 2021-04-09 11:16:01.841
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
