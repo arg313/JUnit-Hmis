@@ -11,7 +11,7 @@ public class Ejercicio2 {
 		if (username.length() >= 30 || password.length() >= 30) {
 			return false;
 		}
-		// llamar al m�todo de la bbdd
+		// llamar al metodo de la bbdd
 		return compruebaLoginEnBD(username, password);
 	}
 
