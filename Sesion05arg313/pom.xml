@@ -161,7 +161,6 @@
 				<groupId>org.owasp</groupId>
 				<artifactId>dependency-check-maven</artifactId>
 				<version>6.1.5</version>
-				<!-- le anade cosas -->
 				<configuration>
 					<skipTestScope>false</skipTestScope>
 					<formats>
@@ -229,7 +228,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-
 
 </project>
