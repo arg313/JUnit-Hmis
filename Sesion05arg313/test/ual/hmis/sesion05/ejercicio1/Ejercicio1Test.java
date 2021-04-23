@@ -14,5 +14,4 @@ class Ejercicio1Test {
 		Ejercicio1 c = new Ejercicio1();
 		assertEquals(expected, c.transformar(input));
 	}
-
 }
