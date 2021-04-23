@@ -20,6 +20,7 @@ public class Ferry {
 		this.maxVehiculos = maxVehiculos;
 		this.numPasajeros = numPasajeros;
 		this.pesoVehiculos = pesoVehiculos;
+		this.numVehiculos = numVehiculos;
 		this.vehiculos = new ArrayList<Vehiculo>();
 	}
 

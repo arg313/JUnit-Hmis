@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -92,5 +93,65 @@ class Ejercicio8Test {
 		for (int i = 0;i<a.size();i++) f.embarcarVehiculo(a.get(i));
 		assertEquals(expected, f.superadoMaximoPeso());
 	}
+	
+	@Test
+	void gettersSettersTest() {
+		Ferry f = new Ferry(10, 5000, 3, 5, 4, 0);
+		
+		assertEquals(f.getMaxPasajeros(), 10);
+		assertEquals(f.getMaxVehiculos(), 3);
+		assertEquals(f.getNumPasajeros(), 5);
+		assertEquals(f.getNumVehiculos(), 4);
+		assertEquals(f.getPesoMaxVehiculos(), 5000);
+		assertEquals(f.getPesoVehiculos(), 0);
+		assertEquals(f.getVehiculos(), new ArrayList<Vehiculo>());
+		
+		f.setMaxPasajeros(11);
+		f.setMaxVehiculos(4);
+		f.setNumPasajeros(6);
+		f.setNumVehiculos(5);
+		f.setPesoMaxVehiculos(6000);
+		f.setPesoVehiculos(1);
+		f.setVehiculos(null);
+		
+		assertEquals(f.getMaxPasajeros(), 11);
+		assertEquals(f.getMaxVehiculos(), 4);
+		assertEquals(f.getNumPasajeros(), 6);
+		assertEquals(f.getNumVehiculos(), 5);
+		assertEquals(f.getPesoMaxVehiculos(), 6000);
+		assertEquals(f.getPesoVehiculos(), 1);
+		assertEquals(f.getVehiculos(), null);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
