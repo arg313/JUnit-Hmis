@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Ferry.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Sesion05arg313</a> &gt; <a href="index.source.html" class="el_package">ual.hmis.sesion05.ejercicio8</a> &gt; <span class="el_source">Ferry.java</span></div><h1>Ferry.java</h1><pre class="source lang-java linenums">package ual.hmis.sesion05.ejercicio8;
+
+import java.util.ArrayList;
+
+public class Ferry {
+
+	private int maxPasajeros;
+	private int pesoMaxVehiculos;
+	private int maxVehiculos;
+	private int numPasajeros;
+	private int numVehiculos;
+	private int pesoVehiculos;
+	private ArrayList&lt;Vehiculo&gt; vehiculos;
+
+	public Ferry(final int maxPasajeros, final int pesoMaxVehiculos,
+			final int maxVehiculos, final int numPasajeros,
+<span class="fc" id="L17">			final int numVehiculos, final int pesoVehiculos) {</span>
+<span class="fc" id="L18">		this.maxPasajeros = maxPasajeros;</span>
+<span class="fc" id="L19">		this.pesoMaxVehiculos = pesoMaxVehiculos;</span>
+<span class="fc" id="L20">		this.maxVehiculos = maxVehiculos;</span>
+<span class="fc" id="L21">		this.numPasajeros = numPasajeros;</span>
+<span class="fc" id="L22">		this.pesoVehiculos = pesoVehiculos;</span>
+<span class="fc" id="L23">		this.vehiculos = new ArrayList&lt;Vehiculo&gt;();</span>
+<span class="fc" id="L24">	}</span>
+
+	boolean embarcarVehiculo(final Vehiculo vehiculo) {
+<span class="fc" id="L27">		boolean res = vehiculos.add(vehiculo);</span>
+<span class="fc" id="L28">		numVehiculos = vehiculos.size();</span>
+<span class="fc" id="L29">		return res;</span>
+	}
+
+	int totalVehiculos() {
+<span class="fc" id="L33">		return numVehiculos;</span>
+	}
+
+	boolean vacio() {
+<span class="fc bfc" id="L37" title="All 2 branches covered.">		if (vehiculos.isEmpty()) {</span>
+<span class="fc" id="L38">			return true;</span>
+		}
+<span class="fc" id="L40">		return false;</span>
+	}
+
+	boolean superadoMaximoVehiculos() {
+<span class="fc bfc" id="L44" title="All 2 branches covered.">		if (numVehiculos &gt; maxVehiculos) {</span>
+<span class="fc" id="L45">			return true;</span>
+		}
+<span class="fc" id="L47">		return false;</span>
+	}
+
+	boolean superadoMaximoPeso() {
+<span class="fc" id="L51">		double pesoTotal = 0.0;</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">		for (int i = 0; i &lt; vehiculos.size(); i++) {</span>
+<span class="fc" id="L53">			pesoTotal += vehiculos.get(i).getPeso();</span>
+		}
+<span class="fc bfc" id="L55" title="All 2 branches covered.">		if (pesoTotal &gt; pesoMaxVehiculos) {</span>
+<span class="fc" id="L56">			return true;</span>
+		}
+<span class="fc" id="L58">		return false;</span>
+	}
+
+	public int getMaxPasajeros() {
+<span class="nc" id="L62">		return maxPasajeros;</span>
+	}
+
+	public void setMaxPasajeros(final int maxPasajeros) {
+<span class="nc" id="L66">		this.maxPasajeros = maxPasajeros;</span>
+<span class="nc" id="L67">	}</span>
+
+	public int getPesoMaxVehiculos() {
+<span class="nc" id="L70">		return pesoMaxVehiculos;</span>
+	}
+
+	public void setPesoMaxVehiculos(final int pesoMaxVehiculos) {
+<span class="nc" id="L74">		this.pesoMaxVehiculos = pesoMaxVehiculos;</span>
+<span class="nc" id="L75">	}</span>
+
+	public int getMaxVehiculos() {
+<span class="nc" id="L78">		return maxVehiculos;</span>
+	}
+
+	public void setMaxVehiculos(final int maxVehiculos) {
+<span class="nc" id="L82">		this.maxVehiculos = maxVehiculos;</span>
+<span class="nc" id="L83">	}</span>
+
+	public int getNumPasajeros() {
+<span class="nc" id="L86">		return numPasajeros;</span>
+	}
+
+	public void setNumPasajeros(final int numPasajeros) {
+<span class="nc" id="L90">		this.numPasajeros = numPasajeros;</span>
+<span class="nc" id="L91">	}</span>
+
+	public int getNumVehiculos() {
+<span class="nc" id="L94">		return numVehiculos;</span>
+	}
+
+	public void setNumVehiculos(final int numVehiculos) {
+<span class="nc" id="L98">		this.numVehiculos = numVehiculos;</span>
+<span class="nc" id="L99">	}</span>
+
+	public int getPesoVehiculos() {
+<span class="nc" id="L102">		return pesoVehiculos;</span>
+	}
+
+	public void setPesoVehiculos(final int pesoVehiculos) {
+<span class="nc" id="L106">		this.pesoVehiculos = pesoVehiculos;</span>
+<span class="nc" id="L107">	}</span>
+
+	public void setVehiculos(final ArrayList&lt;Vehiculo&gt; vehiculos) {
+<span class="nc" id="L110">		this.vehiculos = vehiculos;</span>
+<span class="nc" id="L111">	}</span>
+
+	public ArrayList&lt;Vehiculo&gt; getVehiculos() {
+<span class="nc" id="L114">		return this.vehiculos;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
