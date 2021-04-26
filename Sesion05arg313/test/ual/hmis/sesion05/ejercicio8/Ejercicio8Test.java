@@ -95,7 +95,7 @@ class Ejercicio8Test {
 	}
 	
 	@Test
-	void gettersSettersTest() {
+	void gettersSettersFerryTest() {
 		Ferry f = new Ferry(10, 5000, 3, 5, 4, 0);
 		
 		assertEquals(f.getMaxPasajeros(), 10);
@@ -124,34 +124,22 @@ class Ejercicio8Test {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	@Test
+	void gettersSettersVehiculoTest() {
+		Vehiculo v = new Vehiculo(5, 4, 1500);
+		
+		assertEquals(v.getNumPasajeros(), 5);
+		assertEquals(v.getNumRuedas(), 4);
+		assertEquals(v.getPeso(), 1500);
+		
+		v.setNumPasajeros(7);
+		v.setNumRuedas(6);
+		v.setPeso(1800);
+		
+		assertEquals(v.getNumPasajeros(), 7);
+		assertEquals(v.getNumRuedas(), 6);
+		assertEquals(v.getPeso(), 1800);
+	}
 	
 
 }
