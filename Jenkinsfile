@@ -63,7 +63,7 @@ pipeline {
     }
     stage('SonarQube analysis') {
    	steps {
-     		withSonarQubeEnv(credentialsId: 'sonar_server', installationName: 'servidor_sonarqube') {
+     		withSonarQubeEnv(credentialsId: 'sonar_server', installationName: 'sonarqube_scanner') {
        			sh 'mvn -f Sesion05arg313/pom.xml sonar:sonar'
     		}
    	}
