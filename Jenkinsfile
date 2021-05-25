@@ -61,5 +61,12 @@ pipeline {
             }
         }
     }
+    stage('SonarQube analysis') {
+   	steps {
+     		withSonarQubeEnv(credentialsId: 'sonar_server', installationName: 'sonar') {
+       			sh 'mvn -f Sesion05arg313/pom.xml sonar:sonar'
+    		}
+   	}
+    }
   }
 }
