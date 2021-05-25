@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.074" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.084" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Users\alexr\eclipse\java-2021-03\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\alexr\AppData\Local\Temp\surefire13724678451217174424\surefirebooter15332301082783937878.jar C:\Users\alexr\AppData\Local\Temp\surefire13724678451217174424 2021-04-23T12-00-06_788-jvmRun1 surefire11240640028527505490tmp surefire_07589402507983688397tmp"/>
+    <property name="sun.java.command" value="C:\Users\alexr\AppData\Local\Temp\surefire14482743540835206046\surefirebooter6700393147367723598.jar C:\Users\alexr\AppData\Local\Temp\surefire14482743540835206046 2021-05-06T11-56-41_974-jvmRun1 surefire5196082877015764067tmp surefire_010486258352329775055tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alexr\Google Drive\TERCERO\2 CUATRIMESTRE\Herramientas Y Métodos De Ingeniería Del Software\PRÁCTICAS\repositorio05\Sesion05arg313\target\test-classes;C:\Users\alexr\Google Drive\TERCERO\2 CUATRIMESTRE\Herramientas Y Métodos De Ingeniería Del Software\PRÁCTICAS\repositorio05\Sesion05arg313\target\classes;C:\Users\alexr\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.1\junit-jupiter-api-5.7.1.jar;C:\Users\alexr\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\alexr\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\alexr\.m2\repository\org\junit\platform\junit-platform-commons\1.7.1\junit-platform-commons-1.7.1.jar;C:\Users\alexr\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.1\junit-jupiter-engine-5.7.1.jar;C:\Users\alexr\.m2\repository\org\junit\platform\junit-platform-engine\1.7.1\junit-platform-engine-1.7.1.jar;C:\Users\alexr\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.1\junit-jupiter-params-5.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alexr\AppData\Local\Temp\surefire13724678451217174424\surefirebooter15332301082783937878.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alexr\AppData\Local\Temp\surefire14482743540835206046\surefirebooter6700393147367723598.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -55,11 +55,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.015"/>
-  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.001"/>
-  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.022"/>
-  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.004"/>
-  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.001"/>
+  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.008"/>
   <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.002"/>
+  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.003"/>
+  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.001"/>
+  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.003"/>
   <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.002"/>
+  <testcase name="testLogin(String,String, boolean)" classname="ual.hmis.sesion05.ejercicio2.Ejercicio2Test" time="0.003"/>
 </testsuite>
